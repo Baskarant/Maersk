@@ -29,25 +29,46 @@
   } 
 
   h5{
-    padding: 0.5em;
+    padding: 1em;
     text-align: center;
   }
 
   .btn{
-    text-align: center;
-    font-size: 20px;
-    width: 100%;
+    float: right;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    line-height: 12px;
+    width: 150px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
 
   .act{
     background-color: rgba(115, 195, 220, 1);
     border-color: #FFFFFF;
+    width: 150px;
+    height: 50px;
   }
   
   @media screen and  (max-width: 375px){
 
+    #title {
+        cursor: pointer;
+        height: 23px;
+        width: 100%;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#0A246A, endColorStr=#A6CAF0, GradientType=1);
+        color: white;
+        font: 13px arial, helvetica;
+        background-color: #000000;
+      }
+
        .btn{
-        padding: 0.7em;
+        display: flex;
+        /* padding: 0.7em; */
+        margin-top: 1px;
+        margin-right: 30%;
        }
 
        .act{
@@ -57,6 +78,9 @@
   
       .grid-container-fluid{
           grid-template-columns: auto;
+          display: block;
+          padding: 10px;
+          margin-top: 90px;
       }
       .grid-item{
           padding: 1px;
