@@ -64,6 +64,39 @@
         background-color: #000000;
       }
 
+      #bb{
+        background-color:#FFFFFF;
+        /* FF3.6+ */
+        /* background: -moz-linear-gradient(right,  #1e5799 5px, #ff0000 2%); */
+        /* Chrome,Safari4+ */
+        /* background: -webkit-gradient(linear, left right, left bottom, color-stop(5px,#1e5799), color-stop(2%,#ff0000)); */
+        /* Chrome10+,Safari5.1+ */
+        /* background: -webkit-linear-gradient(right,  #1e5799 5px,#ff0000 2%); */
+        /* Opera 11.10+ */
+        /* background: -o-linear-gradient(right,  #1e5799 5px,#ff0000 2%); */
+         /* IE10+ */
+        /* background: -ms-linear-gradient(right,  #1e5799 5px,#ff0000 2%); */
+        /* W3C */
+        background: linear-gradient(to right,  #2F454E 5px,#FFFFFF 2%); 
+         /* IE6-9 */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff0000',GradientType=0 ); */
+        }
+        
+        #lb{
+          background-color: #FFFFFF;
+          background: linear-gradient(to right, #6F98A8 5px, #FFFFFF 2%);
+        }
+
+        #b {
+          background-color: #FFFFFF;
+          background: linear-gradient(to right, #72C3DC 5px, #FFFFFF 2%);
+        }
+
+        #g{
+          background-color: #FFFFFF;
+          background: linear-gradient(to right, #BFBFBF 5px, #FFFFFF 2%);
+        }
+
        .btn{
         display: flex;
         /* padding: 0.7em; */
